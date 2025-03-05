@@ -1,7 +1,3 @@
-.App {
-  text-align: center;
-}
-
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -37,7 +33,19 @@
   }
 }
 
-.map {
+.App {
+  display: flex;
   height: 100vh;
-  width: 100%;
+  position: relative;
+}
+
+.map {
+  flex: 3; 
+}
+
+.sidebar {
+  flex: 1;
+  padding: 20px;
+  background-color: #f7f7f7;
+  overflow-y: auto;
 }

@@ -1,0 +1,26 @@
+.sidebar {
+  flex: 1;
+  padding: 20px;
+  background-color: #f7f7f7;
+  overflow-y: auto;
+  border-left: 1px solid #ccc;
+  text-transform: capitalize;
+}
+
+.sidebar-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.close-btn {
+  margin-bottom: 10px;
+  padding: 5px 10px;
+  cursor: pointer;
+  background-color: #ff5c5c;
+  border: none;
+  color: white;
+  border-radius: 3px;
+  font-size: 14px;
+}
