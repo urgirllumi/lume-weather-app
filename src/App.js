@@ -9,7 +9,7 @@ import {
   Popup,
   useMap,
   useMapEvents,
-} from "react-leaflet";
+ } from "react-leaflet";
 import axios from "axios";
 import L from "leaflet";
 import Sidebar from "./Sidebar";
