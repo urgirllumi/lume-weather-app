@@ -3,7 +3,8 @@
 This project is a simple weather application built using **React**, allowing users to search for cities, and click on the map to show weather information for that location.
 
 ## 🚀 Features
-- Search for real-time weather data.
+- Search for cities.
+- Show real-time weather data.
 - Interactive map with location markers.
 - Dark mode toggle.
 
