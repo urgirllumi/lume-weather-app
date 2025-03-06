@@ -1,0 +1,45 @@
+:root {
+  /* Light mode colors */
+  --bg-color: white;
+  --text-color: black;
+  --button-bg: #ff5c5c;
+  --button-text: white;
+  --shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  --border-color: #ccc;
+}
+
+.dark-mode {
+  /* Dark mode colors */
+  --bg-color: #121212;
+  --text-color: white;
+  --button-bg: white;
+  --button-text: black;
+  --shadow: 0 2px 5px rgba(225, 207, 207, 0.5);
+  --border-color: #ccc;
+}
+
+/* Apply globally */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: var(--bg-color);
+  color: var(--text-color);
+}
+
+input {
+  padding: 4px;
+  font-size: 14px;
+  border: 1px solid var(--border-color);
+  border-radius: 4px;
+}
+
+button {
+  background-color: var(--button-bg);
+  color: var(--button-text);
+  padding: 4px 10px;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+  border: none;
+  font-size: 14px;
+}
