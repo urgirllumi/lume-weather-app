@@ -21,7 +21,7 @@ Make sure you have the following installed:
 ## 🛠️ Installation & Setup
 1. Clone this repository:
    ```sh
-   git clone https://github.com/yourusername/weather-app.git
+   git clone https://github.com/urgirllumi/lume-weather-app.git
    cd weather-app
    ```
 2. Install dependencies:
